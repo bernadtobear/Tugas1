@@ -1,96 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 
 <head>
-    <title>CV Kei</title>
-        <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Kei</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header class="header">
-        <div class=" header-site">
+        <div class="header-site">
             <h1>Curriculum Vitae</h1>
-            <h1>Hello - bello,</h1>
-            <p> selamat datang di CV aku, disini aku bakal tulis informasi tentang diriku.</p>
+            <h2>Hello - bello,</h2>
+            <p>Selamat datang di CV aku, di sini aku bakal tulis informasi tentang diriku.</p>
         </div>
     </header>
-    
-    <p align=center>Curriculum Vitae</p>
-    <p align=right>Selasa, 15 September 2026</p>
-    <p align=left><b>Data Diri</b></p>
 
-    <section class = "section-biodata"> 
-        <div class="biodata">
-            Nama : Bernadeta <b>Keysa</b> Putri Natalie<br>
-            Alamat : <i>Jl. Merdeka No. 123</i><br>
-            Telepon : 08123456789<br>
-            Email : <u>bernadeta.keysa</u>@example.com<br>
-            Jenis Kelamin : 
-            <font color=red face="Helvetica,Arial">
-                Perempuan<br></font><br>
-        </div>
-    </section>
-    
+    <nav class="navbar">
+        <a href="#biodata">Data Diri</a>
+        <a href="#pendidikan">Pendidikan</a>
+        <a href="#organisasi">Organisasi</a>
+        <a href="#dokumentasi">Dokumentasi</a>
+        <a href="#strength">Strength &amp; Weakness</a>
+    </nav>
 
-    <section class = "section-pendidikan">
-        <div class="pendidikan">
-            <p><b>Riwayat Pendidikan</b></p>
-            <ul> 
-                <li>SMPN 3 Kota Bandung
-                <li>SMAN 1 Kota Bandung
-                <li>Universitas Sanata Dharma
-            </ul>
-        </div>
-    </section>
+    <main>
+        <p class="text-center">Curriculum Vitae</p>
+        <p class="text-right">Selasa, 15 September 2026</p>
 
-    <section class="section-organisasi">
-        <div class="organisasi">
-            <p><b>Pengalaman Organisasi & Kepanitiaan</b></p>
-            <ol>
-                <li>OSIS SMPN 3 Kota Bandung
-                <li>DA SMAN 1 Kota Bandung
-                <li>Kepanitiaan PKKMB Fakultas FST Universitas Sanata Dharma
-            </ol>
-        </div>
-    </section>
+        <section class="section-biodata" id="biodata">
+            <div class="biodata card">
+                <p><b>Data Diri</b></p>
+                Nama : Bernadeta <b>Keysa</b> Putri Natalie<br>
+                Alamat : <i>Jl. Merdeka No. 123</i><br>
+                Telepon : 08123456789<br>
+                Email : bernadeta.keysa@example.com<br>
+                Jenis Kelamin : <span class="gender">Perempuan</span>
+            </div>
+        </section>
 
-    <article class="article-image">
-        Berikut beberapa dokumentasi :<br>
-        <div class="image-section">
-            <img src="Dokum.JPG" alt="Valid HTML 4.01!" width="300" height="auto">
-            <img src="Dokum2.jpg" alt="Valid HTML 4.01!" width="300" height="auto">
-            <img src="Dokum1.jpg" alt="Valid HTML 4.01!" width="300" height="auto">
-        </div>
-     </article>
-
-    <a href="https://www.instagram.com/p/Dbv_o7Fk44I/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==">previous</a> example<br>
-
-    <section class="table-section">
-    <table border="1">
-        <tr>
-            <th>Strength</th>
-            <th>Weakness</th>
-        </tr>
-        <tr>
-            <td>
+        <section class="section-pendidikan" id="pendidikan">
+            <div class="pendidikan card">
+                <p><b>Riwayat Pendidikan</b></p>
                 <ul>
-                    <li>Mampu berkomunikasi dengan baik.</li>
-                    <li>Suka hal baru dan mudah bersosialisasi dengan orang lain.</li>
-                    <li>Teliti, disiplin, dan bertanggung jawab.</li>
-                    <li>Mampu bekerja sama dengan tim.</li>
+                    <li>SMPN 3 Kota Bandung</li>
+                    <li>SMAN 1 Kota Bandung</li>
+                    <li>Universitas Sanata Dharma</li>
                 </ul>
-            </td>
-            <td>
-                <ul>
-                    <li>Kurangnya pengalaman dalam mengatur acara besar.</li>
-                    <li>Terkadang merasa gugup saat menghadapi banyak orang.</li>
-                </ul>
-            </td>
-        </tr>
-    </table>
-    </section>
+            </div>
+        </section>
+
+        <section class="section-organisasi" id="organisasi">
+            <div class="organisasi card">
+                <p><b>Pengalaman Organisasi &amp; Kepanitiaan</b></p>
+                <ol>
+                    <li>OSIS SMPN 3 Kota Bandung</li>
+                    <li>DA SMAN 1 Kota Bandung</li>
+                    <li>Kepanitiaan PKKMB Fakultas FST Universitas Sanata Dharma</li>
+                </ol>
+            </div>
+        </section>
+
+        <article class="article-image card" id="dokumentasi">
+            <p>Berikut beberapa dokumentasi :</p>
+            <div class="image-section">
+                <img src="Dokum.JPG" alt="Dokumentasi kegiatan 1" width="300">
+                <img src="Dokum2.jpg" alt="Dokumentasi kegiatan 2" width="300">
+                <img src="Dokum1.jpg" alt="Dokumentasi kegiatan 3" width="300">
+            </div>
+        </article>
+
+        <p class="link-example">
+            <a href="https://www.instagram.com/p/Dbv_o7Fk44I/?utm_source=ig_web_copy_link&amp;stkn=MzRlODBiNWFlZA==" target="_blank" rel="noopener">previous
+            </a> 
+        </p>
+
+        <section class="table-section" id="strength">
+            <table>
+                <tr>
+                    <th>Strength</th>
+                    <th>Weakness</th>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Mampu berkomunikasi dengan baik.</li>
+                            <li>Suka hal baru dan mudah bersosialisasi dengan orang lain.</li>
+                            <li>Teliti, disiplin, dan bertanggung jawab.</li>
+                            <li>Mampu bekerja sama dengan tim.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Kurangnya pengalaman dalam mengatur acara besar.</li>
+                            <li>Terkadang merasa gugup saat menghadapi banyak orang.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </section>
+    </main>
 </body>
 
 </html>
