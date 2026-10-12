@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #FFCBE1;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+header h2 {
+    margin: 0;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+.container {
+    width: 650px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow:
+        0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.form-row label {
+    width: 160px;
+    font-weight: bold;
+}
+
+.form-row input {
+    flex: 1;
+    padding: 8px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.button-area {
+    margin-left: 160px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 8px 25px;
+    cursor: pointer;
+    background-color: #BCD8EC;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #D6E5BD;
+}
+
+.pilihan-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.pilihan-row label {
+    width: 160px;
+    font-weight: bold;
+}
+
+.pilihan-row input {
+    flex: 1;
+    padding: 8px;
+}
+
+.radio-item {
+    margin: 10px 0;
+}
+
+.radio-item input {
+    margin-right: 8px;
+}
+
+select {
+    padding: 8px;
+    width: 250px;
+    margin-bottom: 15px;
+}
+
+#emailContainer {
+    margin-top: 25px;
+}
+
+#output {
+    margin-top: 25px;
+    padding: 20px;
+    background-color: #eeeeee;
+    border-radius: 5px;
+    line-height: 1.6;
+}
